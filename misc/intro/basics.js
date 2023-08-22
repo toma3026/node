@@ -19,6 +19,7 @@ const number = 1;
 // Add the year plus the number
 // The result should be 2023
 // You cannot touch line 1 or 2
-console.log(Number(year) + number);
+const updatedYear = Number(year) + number;
+console.log(updatedYear);
 
 // --------------------------------------
