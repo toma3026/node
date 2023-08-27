@@ -21,14 +21,8 @@ const number = 1;
 // The result should be 2023
 // You cannot touch line 1 or 2
 
-const result1 = Number(year) + number;
-const result2 = parseInt(year) + number;
-const result3 = +year + number;
-
-console.log(result3);
-
-console.log(Number("3424324aa23434"));
-console.log(parseInt("3424324aa23434"));
+const updatedYear = Number(year) + number;
+console.log(updatedYear);
 
 // --------------------------------------
 
